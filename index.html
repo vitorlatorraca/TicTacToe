@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body onload="vez()">
+
+    <header id="res">
+
+        <h1>Turn of </h1>
+        <div id="vez"></div>
+
+    </header>
+    
+    <table>
+    <tbody>
+        <tr>
+            <td class="cima esq">
+                <div onclick="clicar('ce')" id="ce"></div>
+            </td>
+            <td class="cima cen">
+                <div onclick="clicar('cc')" id="cc"></div>
+            </td>
+            <td class="cima dir">
+                <div onclick="clicar('cd')" id="cd"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="meio esq">
+                <div onclick="clicar('me')" id="me"></div>
+            </td>
+            <td class="meio cen">
+                <div onclick="clicar('mc')" id="mc"></div>
+            </td>
+            <td class="meio dir">
+                <div onclick="clicar('md')" id="md"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="baixo esq">
+                <div onclick="clicar('be')" id="be"></div>
+            </td>
+            <td class="baixo cen">
+                <div onclick="clicar('bc')" id="bc"></div>
+            </td>
+            <td class="baixo dir">
+                <div onclick="clicar('bd')" id="bd"></div>
+            </td>
+        </tr>
+    </tbody>
+    <div id="linha"></div>
+    </table>
+
+    <div id="ganhador"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
