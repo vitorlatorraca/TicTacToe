@@ -1,8 +1,12 @@
-# Jogo da Velha
-Simples jogo da velha feito com JavaScript Puro!
+TicTacToe
+Simple Tic Tac Toe game made with Pure JavaScript!
 
-## Preview
+Preview
 <img src="img/img-readme.png" width="700">
+How to Run?
+Download directly from GitHub or clone the repository and then open the "index.html" file in any browser!
 
-## Como Rodar?
-Baixa diretamente do gitHub ou dar git clone e depois abre o arquivo "index.html" em qualquer navegador!# TicTacToe
+
+
+
+
