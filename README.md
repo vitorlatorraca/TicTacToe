@@ -2,6 +2,8 @@
 Tic Tac Toe
 Welcome to a simple Tic Tac Toe game made with Pure JavaScript!
 
+![Tic Tac Toe Preview](img/print1.png)
+
 You can play the game by clicking on the following link: [Play Tic Tac Toe](https://vitorlatorraca.github.io/TicTacToe/)
 
 Here's a video demonstrating how the Tic Tac Toe game, created by myself, works: [Tic Tac Toe Demo](https://vimeo.com/926085713?share=copy)
