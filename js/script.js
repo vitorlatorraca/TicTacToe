@@ -244,7 +244,7 @@ function verfificar() {
         }else{
             //O - GANHOU
             ganhador.innerHTML = `
-                <h1>Winenr: <img src='img/o.png'></h1>
+                <h1>Winner: <img src='img/o.png'></h1>
             `
         }
     }else if(jogada == 9){
