@@ -42,7 +42,7 @@ if(gameover.fim == false){
                 vez()
                 ce[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
 
@@ -61,7 +61,7 @@ if(gameover.fim == false){
                 vez()
                 cc[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -79,7 +79,7 @@ if(gameover.fim == false){
                 vez()
                 cd[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -97,7 +97,7 @@ if(gameover.fim == false){
                 vez()
                 me[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -115,7 +115,7 @@ if(gameover.fim == false){
                 vez()
                 mc[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -133,7 +133,7 @@ if(gameover.fim == false){
                 vez()
                 md[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -151,7 +151,7 @@ if(gameover.fim == false){
                 vez()
                 be[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -169,7 +169,7 @@ if(gameover.fim == false){
                 vez()
                 bc[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -187,7 +187,7 @@ if(gameover.fim == false){
                 vez()
                 bd[0] = true
             }else{
-                alert('Já Marcado')
+                alert('Try other space')
             }
 
             break;
@@ -235,21 +235,21 @@ function verfificar() {
     var ganhador = document.getElementById('ganhador')
 
     if(gameover.fim == true){
-        resultadofinal.innerHTML = `<h1>Fim de Jogo!</h1>`
+        resultadofinal.innerHTML = `<h1>End of game!</h1>`
         if(jogada%2==0){
             //X - GANHOU
             ganhador.innerHTML = `
-                <h1>Ganhador: <img src='img/x.png'></h1>
+                <h1>Winner: <img src='img/x.png'></h1>
             `
         }else{
             //O - GANHOU
             ganhador.innerHTML = `
-                <h1>Ganhador: <img src='img/o.png'></h1>
+                <h1>Winenr: <img src='img/o.png'></h1>
             `
         }
     }else if(jogada == 9){
-        resultadofinal.innerHTML = `<h1>Fim de Jogo!</h1>`
-        ganhador.innerHTML = `<h1>Deu Velha!</h1>`
+        resultadofinal.innerHTML = `<h1>End of game!</h1>`
+        ganhador.innerHTML = `<h1>It's a draw!</h1>`
     }
 
 }
